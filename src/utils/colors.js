@@ -1,0 +1,1 @@
+let textColor = "#07047a"

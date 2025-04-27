@@ -6,7 +6,7 @@ import './index.css';
 import Home from './components/Home.jsx';
 import AboutUS from './components/AboutUS.jsx';
 import OurProducts from './components/OurProducts.jsx';
-import ContactUs from './components/ContactUs.jsx';
+import ContactUs from './components/ContactUS/ContactUs.jsx';
 import Footer from './components/Footer/Footer.jsx';
 
 createRoot(document.getElementById('root')).render(

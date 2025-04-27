@@ -7,6 +7,7 @@ import Home from './components/Home.jsx';
 import AboutUS from './components/AboutUS.jsx';
 import OurProducts from './components/OurProducts.jsx';
 import ContactUs from './components/ContactUs.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,5 +21,6 @@ createRoot(document.getElementById('root')).render(
 
       </Routes>
     </BrowserRouter>
+    <Footer />
   </StrictMode>,
 )

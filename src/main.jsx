@@ -20,7 +20,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/Contact" element={<ContactUs />} />
 
       </Routes>
+      <Footer />
     </BrowserRouter>
-    <Footer />
+
   </StrictMode>,
 )

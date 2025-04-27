@@ -42,10 +42,10 @@ function Footer() {
                     <h2 className="text-xl font-bold mb-4 text-white">Quick Links</h2>
                     <nav>
                         <ul className="space-y-2 text-sm">
-                            <li><a href="/" className="hover:text-blue-400">Home</a></li>
-                            <li><a href="/About" className="hover:text-blue-400">About Us</a></li>
-                            <li><a href="/Products" className="hover:text-blue-400">Product</a></li>
-                            <li><a href="/Contact" className="hover:text-blue-400">Contact Us</a></li>
+                            <li><Link to="/" className="hover:text-blue-400 transition duration-300">Home</Link></li>
+                            <li><Link to="/About" className="hover:text-blue-400">About Us</Link></li>
+                            <li><Link to="/Products" className="hover:text-blue-400">Product</Link></li>
+                            <li><Link to="/Contact" className="hover:text-blue-400">Contact Us</Link></li>
                         </ul>
                     </nav>
                 </div>

@@ -43,9 +43,9 @@ function Footer() {
                     <nav>
                         <ul className="space-y-2 text-sm">
                             <li><a href="/" className="hover:text-blue-400">Home</a></li>
-                            <li><a href="/about" className="hover:text-blue-400">About Us</a></li>
-                            <li><a href="/products" className="hover:text-blue-400">Product</a></li>
-                            <li><a href="/contact" className="hover:text-blue-400">Contact Us</a></li>
+                            <li><a href="/About" className="hover:text-blue-400">About Us</a></li>
+                            <li><a href="/Products" className="hover:text-blue-400">Product</a></li>
+                            <li><a href="/Contact" className="hover:text-blue-400">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>

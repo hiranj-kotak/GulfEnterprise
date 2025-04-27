@@ -8,9 +8,9 @@ function Header() {
         setIsMenuOpen(!isMenuOpen);
     };
     return (
-        <header className="md:px-2 bg-white/40 backdrop-blur-md fixed  w-full top-0 shadow relative z-50 ">
+        <header className="md:px-2 bg-white/40 backdrop-blur-md sticky   w-full top-0 shadow relative z-50 ">
 
-            <div className="container relative flex items-center justify-between h-16 mx-auto">
+            <div className="container relative flex items-center justify-between h-16  mx-auto">
                 <button onClick={toggleMenu} className="flex p-4 md:hidden">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -8,6 +8,7 @@ import AboutUS from './components/AboutUS.jsx';
 import OurProducts from './components/Products/OurProducts.jsx';
 import ContactUs from './components/ContactUS/ContactUs.jsx';
 import Footer from './components/Footer/Footer.jsx';
+import ProductPage from './components/ProductPage/ProductPage.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,7 +19,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/About" element={<AboutUS />} />
         <Route path="/Products" element={<OurProducts />} />
         <Route path="/Contact" element={<ContactUs />} />
-
+        <Route path="/product" element={<ProductPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

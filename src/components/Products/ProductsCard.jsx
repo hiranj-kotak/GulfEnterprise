@@ -1,8 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ProductCard = ({ image, title, description }) => {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate(`/product`);
+    };
     return (
-        <div className="rounded-2xl shadow-md w-72 py-6 px-2 flex flex-col items-center hover:scale-105 transform transition">
+        <div
+            onClick={handleClick}
+            className="rounded-2xl shadow-md w-72 py-6 px- flex flex-col items-center hover:scale-105 transform transition">
             {/* Transparent background image */}
             <div className="relative flex flex-col items-center">
                 <img src={image} alt={title} className="w-36 h-36 object-contain" />

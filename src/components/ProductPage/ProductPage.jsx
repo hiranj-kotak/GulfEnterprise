@@ -7,11 +7,11 @@ import MoreProducts from './MoreProducts.jsx'
 
 function ProductPage() {
     return (
-        <div className="bg-[#fff7f0] text-gray-800">
+        <div className=" text-gray-800">
             <HeaderSection />
             <FeaturesRow />
             <ProductDetails />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <MoreProducts />
         </div>
     )

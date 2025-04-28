@@ -3,9 +3,9 @@ import productImage from './image.png'; // 🥥 Your transparent dry coconut ima
 
 const HeaderSection = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center gap-10 p-10">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-15 p-10">
             {/* Image Box */}
-            <div className="bg-white rounded-2xl p-6 shadow-md flex flex-col items-center">
+            <div className=" rounded-2xl p-6 shadow-md flex flex-col items-center">
                 <img src={productImage} alt="Dry Coconut" className="w-64 h-64 object-contain" />
                 <div className="w-20 h-3 bg-black opacity-10 rounded-full blur-md mt-2"></div> {/* Soft shadow */}
             </div>

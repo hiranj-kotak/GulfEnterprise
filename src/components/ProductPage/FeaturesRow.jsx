@@ -3,7 +3,7 @@ import { FaLeaf, FaCheckCircle, FaSeedling, FaAward } from 'react-icons/fa'; // 
 
 const FeaturesRow = () => {
     return (
-        <div className="flex flex-wrap justify-center gap-10 py-10 bg-white">
+        <div className=" bg-black/90 text-white flex flex-wrap justify-around gap-10 py-5 px-20 ">
             <Feature icon={<FaLeaf size={30} />} title="100% Natural" />
             <Feature icon={<FaCheckCircle size={30} />} title="Premium Quality" />
             <Feature icon={<FaSeedling size={30} />} title="No Chemicals" />

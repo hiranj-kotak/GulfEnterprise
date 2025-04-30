@@ -18,10 +18,10 @@ const Home = () => {
             </section>
 
             {/* About Preview */}
-            <section className="py-20 px-6 md:px-20 flex flex-col md:flex-row items-center gap-10 bg-[#f9f9f9]">
+            <section className="py-20 px-6 md:px-20 flex flex-col md:flex-row items-center gap-10 bg-[#f9f9f9] ">
                 <div className="flex-1">
                     <h2 className="text-4xl font-bold mb-6 text-[#c59f5d]">Who We Are</h2>
-                    <p className="text-lg leading-7 text-[#333]">
+                    <p className="text-lg leading-7 text-[#333333]">
                         We are committed to sourcing the finest nuts and dried fruits from around the world, ensuring every product reflects unmatched quality, freshness, and taste. Our dedication to excellence has made us a trusted name across global markets.
                     </p>
                     <button className="mt-6 px-6 py-2 bg-[#c59f5d] text-white font-semibold rounded-xl">

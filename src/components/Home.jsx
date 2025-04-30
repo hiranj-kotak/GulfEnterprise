@@ -1,7 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+    const navigate = useNavigate();
+
+    const handleClick = (url) => {
+        navigate(`/${url}`);
+    };
     return (
         <div className="bg-white text-black">
             {/* Hero Section */}
@@ -12,7 +18,7 @@ const Home = () => {
                 <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5, duration: 1 }} className="mt-4 text-lg md:text-2xl max-w-2xl">
                     Premium Quality Nuts & Dried Fruits — Trusted Globally.
                 </motion.p>
-                <motion.button whileHover={{ scale: 1.1 }} className="mt-8 px-8 py-3 bg-[#c59f5d] text-white font-semibold rounded-2xl shadow-lg">
+                <motion.button onClick={() => handleClick("Products")} whileHover={{ scale: 1.1 }} className="mt-8 px-8 py-3 bg-[#c59f5d] text-white font-semibold rounded-2xl shadow-lg">
                     Explore Our Products
                 </motion.button>
             </section>
@@ -24,7 +30,7 @@ const Home = () => {
                     <p className="text-lg leading-7 text-[#333333]">
                         We are committed to sourcing the finest nuts and dried fruits from around the world, ensuring every product reflects unmatched quality, freshness, and taste. Our dedication to excellence has made us a trusted name across global markets.
                     </p>
-                    <button className="mt-6 px-6 py-2 bg-[#c59f5d] text-white font-semibold rounded-xl">
+                    <button onClick={() => handleClick("About")} className="mt-6 px-6 py-2 bg-[#c59f5d] text-white font-semibold rounded-xl">
                         Learn More
                     </button>
                 </div>
@@ -82,7 +88,7 @@ const Home = () => {
             {/* Final CTA */}
             <section className="py-20 px-6 md:px-20 flex flex-col justify-center items-center bg-[#f9f9f9]">
                 <h2 className="text-4xl font-bold text-center text-[#c59f5d] mb-6">Ready to Taste Excellence?</h2>
-                <motion.button whileHover={{ scale: 1.1 }} className="px-10 py-4 bg-[#c59f5d] text-white font-bold rounded-2xl shadow-lg">
+                <motion.button onClick={() => handleClick("Contact")} whileHover={{ scale: 1.1 }} className="px-10 py-4 bg-[#c59f5d] text-white font-bold rounded-2xl shadow-lg">
                     Contact Us
                 </motion.button>
             </section>
